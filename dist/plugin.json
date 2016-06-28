@@ -1,0 +1,29 @@
+{
+  "name": "ChartMogul",
+  "id": "chartmogul-datasource",
+  "type": "datasource",
+
+  "staticRoot": ".",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/chartmogul-datasource/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "ChartMogul datasource",
+    "author": {
+      "name": "Receiptful",
+      "url": "https://receiptful.com"
+    },
+    "version": "1.0.0",
+    "updated": "2016-06-27"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

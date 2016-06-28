@@ -1,0 +1,17 @@
+<h3 class="page-heading">ChartMogul details</h3>
+
+<input type="hidden" ng-model='ctrl.current.url' />
+<input type="hidden" ng-model='ctrl.current.basicAuth' />
+
+<div class="gf-form-group max-width-30">
+  <div class="gf-form">
+    <label class="gf-form-label width-13">Account Token</label>
+    <input type="text" class="gf-form-input max-width-18" ng-model='ctrl.current.basicAuthUser' placeholder="default"></input>
+    <info-popover mode="right-absolute">Account Token from your <a href="https://app.chartmogul.com/#admin/api" target="_blank">ChartMogul API Credentials page</a>.</info-popover>
+  </div>
+  <div class="gf-form">
+    <label class="gf-form-label width-13">Secret Key</label>
+    <input type="text" class="gf-form-input max-width-18" ng-model='ctrl.current.basicAuthPassword' placeholder="default"></input>
+    <info-popover mode="right-absolute">Secret Key from your <a href="https://app.chartmogul.com/#admin/api" target="_blank">ChartMogul API Credentials page</a>.</info-popover>
+  </div>
+</div>
